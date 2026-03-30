@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Layout from '../../components/shared/Layout';
-import { StatusBadge, Avatar, Spinner, EmptyState } from '../../components/shared/UIComponents';
-import { jobAPI, mentorshipAPI, alumniAPI } from '../../services/api';
+import Layout from '../components/shared/Layout';
+import { StatusBadge, Avatar, Spinner, EmptyState } from '../components/shared/UIComponents';
+import { jobAPI, mentorshipAPI, alumniAPI } from '../services/api';
 import { useNavigate } from 'react-router-dom';
 import { Briefcase, Users, MessageSquare, TrendingUp } from 'lucide-react';
 

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import Layout from '../../components/shared/Layout';
-import { CompletenessIndicator, StatusBadge, Avatar, Spinner, EmptyState } from '../../components/shared/UIComponents';
-import { alumniAPI, jobAPI, mentorshipAPI } from '../../services/api';
-import { useAuth } from '../../context/AuthContext';
+import Layout from '../components/shared/Layout';
+import { CompletenessIndicator, StatusBadge, Avatar, Spinner, EmptyState } from '../components/shared/UIComponents';
+import { alumniAPI, jobAPI, mentorshipAPI } from '../services/api';
+import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import { Briefcase, MessageSquare, Award, Bell, TrendingUp, Clock } from 'lucide-react';
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Layout from '../../components/shared/Layout';
-import { StatusBadge, Avatar, Spinner, EmptyState, showToast } from '../../components/shared/UIComponents';
-import { adminAPI } from '../../services/api';
+import Layout from '../components/shared/Layout';
+import { StatusBadge, Avatar, Spinner, EmptyState, showToast } from '../components/shared/UIComponents';
+import { adminAPI } from '../services/api';
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer,
   PieChart, Pie, Cell, Legend

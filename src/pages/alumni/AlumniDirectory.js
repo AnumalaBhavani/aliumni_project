@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import Layout from '../../components/shared/Layout';
-import { SkillTags, Avatar, Modal, Spinner, EmptyState, showToast } from '../../components/shared/UIComponents';
-import { alumniAPI, mentorshipAPI } from '../../services/api';
-import { useAuth } from '../../context/AuthContext';
+import Layout from '../components/shared/Layout';
+import { SkillTags, Avatar, Modal, Spinner, EmptyState, showToast } from '../components/shared/UIComponents';
+import { alumniAPI, mentorshipAPI } from '../services/api';
+import { useAuth } from '../context/AuthContext';
 import { Search, MapPin, Briefcase, GraduationCap, MessageSquare, ExternalLink } from 'lucide-react';
 
 export default function AlumniDirectory() {

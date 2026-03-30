@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Layout from '../../components/shared/Layout';
-import { CompletenessIndicator, SkillTags, Modal, Spinner, showToast } from '../../components/shared/UIComponents';
-import { alumniAPI } from '../../services/api';
+import Layout from '../components/shared/Layout';
+import { CompletenessIndicator, SkillTags, Modal, Spinner, showToast } from '../components/shared/UIComponents';
+import { alumniAPI } from '../services/api';
 import { Edit2, Upload, Plus, Linkedin, Github, MapPin, Briefcase, GraduationCap, Check } from 'lucide-react';
 
 export default function AlumniProfile() {
